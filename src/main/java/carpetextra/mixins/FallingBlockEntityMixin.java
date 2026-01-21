@@ -64,7 +64,7 @@ public abstract class FallingBlockEntityMixin extends Entity
                         currentIce = below;
                         iceCount = 0;
                     }
-                    if (iceCount < 2)
+                    if (iceCount < 3)
                     {
                     	world.breakBlock(getBlockPos().down(), false, null);
                         this.setOnGround(false);
